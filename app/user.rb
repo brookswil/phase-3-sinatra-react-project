@@ -1,8 +1,7 @@
-class Restaurant < ActiveRecord::Base
-    belongs_to :user
+class User < ActiveRecord::Base
+    has_many :restaurants
 
 end
-
 
 
 
